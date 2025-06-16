@@ -29,11 +29,7 @@ export const App = () => {
           </div>
         </div>
 
-        <MoviesList
-          movies={moviesFromServer}
-          searchQuery={searchQuery}
-          setSearchQuery={setSearchQuery}
-        />
+        <MoviesList movies={moviesFromServer} searchQuery={searchQuery} />
       </div>
 
       <div className="sidebar">Sidebar goes here</div>
